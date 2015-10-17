@@ -4,13 +4,178 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    
+    <title>top | my portfolio site</title>
+    <meta name="keywords" content="tech academy,体験,事例紹介,がんばります" />
+    <meta name="description" content="tech academy 第７期生のポートフォリオ、自己紹介ページです。勉強してサービスを作るように頑張ります。" />
+
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <p>this is test page!</p>
+    
+    <style type="text/css">
+      body {
+      font-size: 14px;
+      }
+      
+    
+      .icon {
+        text-align: center;
+      }
+
+      .icon .glyphicon {
+        margin-bottom: 0px;
+        font-size: 40px;
+        color: #777;
+      }
+
+      .icon .glyphiconlist {
+        margin-bottom: 0px;
+        margin-top: 20px;
+        font-size: 40px;
+        color: #777;
+      }
+
+
+      .row {
+        margin-bottom: 50px;
+      }
+
+      .content h2 {
+        margin-top: 0;
+        padding-bottom: 15px;
+      }
+      h3 {
+        margin-top: 0;
+        padding-bottom: 14px;
+      }
+
+      .jirei img{
+        max-width: 240px;
+      }
+
+      .content p {
+        margin-bottom: 30px;
+      }
+      
+      .line1{
+        
+        margin-bottom: 30px;
+        
+      }
+      
+      footer {
+        border-top: 1px solid#e7e7e7;
+        background-color: #f8f8f8;
+        text-align: center;
+      }
+      
+      .copyright {
+        padding: 20px 0;
+        font-size: 12px;
+        color: #666;
+      }
+
+    </style>
+    
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">my portfolio</a>
+          </div>
+          <div class="collapse navbar-collapse" id="site-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>    
+    <div class=container>
+      <div class="page-header">
+        <h1>こういうものを作っています</h1>
+      </div>
+      <div class="icon col-sm-3 hidden-xs">
+        <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+        <div class="icon-caption">事例紹介</div>
+      </div>
+      <div class="content col-sm-9">
+          <h2>techacademyで学びながら作る</h2>
+          <p>
+            techacademyでruby on railsを学びながら次のようなものを作っていく予定です。
+          </p>
+      </div>
+      <div class="row line1">
+        <div class="icon col-sm-1 hidden-xs">
+          <span class="glyphicon glyphicon-text-color" aria-hidden="true"></span>
+        </div>
+        <div class="col-sm-5 jirei">
+          <h3>メッセージボード</h3>
+          <p>メッセージのやりとりが出来る掲示板アプリ</p>
+          <img src="img/post.jpg">
+        </div>
+  
+        <div class="icon col-sm-1 hidden-xs">
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        </div>
+        <div class="col-sm-5 jirei">
+          <h3>Twitterクローン</h3>
+          <p>Twitterと同じ機能を持たせたクローンサイト</p>
+          <img src="img/post.jpg">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="icon col-sm-1 hidden-xs">
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        </div>
+        <div class="col-sm-5 jirei">
+          <h3>モノリスト</h3>
+          <p>Amazon APIを活用したアイテムシェアサービス<p>
+          <img src="img/post.jpg">
+        </div>
+          
+        <div class="icon col-sm-1 hidden-xs">
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        </div>
+        <div class="col-sm-5 jirei">
+          <h3>オリジナルサービス</h3>
+          <p>自分のアイデアをカタチにしたWebサービス</p>
+          <img src="img/post.jpg">
+        </div>
+      </div>
+
+      <div class="icon col-sm-3 hidden-xs">
+        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        <div class="icon-caption">ユーザー紹介</div>
+      </div>
+      <div class="content col-sm-9">
+          <h2>Tomohiko Ishii</h2>
+          <p>
+            普段は、ウェブマーケティング、特にSEOに関する仕事をしています。自分でサービスを作ったり、仕事に使えるツールを作ったりしてみたいと思っていましたが、一念発起して初めて見ました。
+          </p>
+          <p>
+          GitHubID : <a href="https://github.com/tomohikoishii" target=_blank>tomohikoishii</a> 
+          </p>
+      </div>
+
+
+
+    </div>
+    <footer>
+      <div class="copyright">© 2015 my portfolio site</div>
+    </footer>
+    
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>
